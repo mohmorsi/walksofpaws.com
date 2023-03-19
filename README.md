@@ -1,1 +1,1 @@
-# DogGuard
+# WalksofPaws Website
