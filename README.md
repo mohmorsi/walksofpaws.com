@@ -1,1 +1,1 @@
-# WalksofPaws Website
+# walksofpaws.com - Dog Walking Company
