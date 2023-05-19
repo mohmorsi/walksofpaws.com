@@ -242,12 +242,15 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  justify-content: center;
 }
 .service {
   position: relative;
 }
 .service img {
   border-radius: 0.5rem;
+  display: block;
+  margin: 0 auto;
 }
 .service_description {
   background-color: var(--clr-service-bg);
@@ -258,6 +261,7 @@ main {
   padding: 0.8rem 0.5rem;
   margin-bottom: 0.2rem;
   border-radius: 0 0 0.5rem 0.5rem;
+  text-align: center;
 }
 .service_3 .service_description {
   background-color: rgba(54,17,51,0.678);
@@ -266,6 +270,7 @@ main {
   color: var(--clr-serice-title);
   margin-bottom: 1rem;
   letter-spacing: 0.05rem;
+  text-align: center;
 }
 .service_description p {
   max-width: 30em;
@@ -273,6 +278,7 @@ main {
   line-height: 1.4rem;
   letter-spacing: 0.008rem;
   color: var(--clr-service-text);
+  text-align: center;
 }
 
 /*-- ============= section_2 End ============= --*/
